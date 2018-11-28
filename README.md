@@ -1,5 +1,7 @@
 # Ecommerce website
 
+#
+
 
 <a href="https://imgflip.com/gif/2nmqgw"><img src="https://i.imgflip.com/2nmqgw.gif" title="made at imgflip.com"/></a>
 
@@ -7,9 +9,7 @@
 
 ### Prerequisites
 
-1. Windows7/Windows8/Windows10
-1. Visual Studio 2012 upto 17
-1. .NET Framework
+1. Browser
 
 ### Installing
 
@@ -17,59 +17,51 @@
 Clone/Download Zip
 ```
 ```
-click open .sln file
+Open XAMPP and start mysql
 ```
 ```
-Go to Server Explorer
+Go to phpmyadmin
 ```
 ```
-Right Click REDS.mdf and go to Properties
+import clothing.sql file
 ```
 ```
-Copy connection String
+Open Command Prompt
 ```
 ```
-Open DatabaseConnection.cs on RailwayEnquiryRepository
+Type: php artisan serve
 ```
 ```
-Edit ,and Paste the connection String And Save
+
 ```
 ```
-For demo data for Admin User ID : A01 and Password : 1234
-                  Employee User ID: E01 and Password: 12345
-                  Passenger User ID: P01 and Password: 123456
+For demo data for Admin User ID : niloy and Password : 123
+                  User  User ID: nobo and Password: 123456
+                  
 ```
 
 
-<a href="https://imgflip.com/gif/2is29q"><img src="https://i.imgflip.com/2is29q.gif" title="made at imgflip.com"/></a>
-<a href="https://imgflip.com/gif/2is2f7"><img src="https://i.imgflip.com/2is2f7.gif" title="made at imgflip.com"/></a>
-<a href="https://imgflip.com/gif/2is2hx"><img src="https://i.imgflip.com/2is2hx.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2nmqqv"><img src="https://i.imgflip.com/2nmqqv.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2nmqsp"><img src="https://i.imgflip.com/2nmqsp.gif" title="made at imgflip.com"/></a>
 
 ### Modules
 
 1. Admin
-1. Employee
-1. Passenger
+1. User
 
 
 ### coding style 
-Two layered architecture
 
-Camel Case Class name
+MVC-Model View Controllers
 
-```
-DatabaseConnection.cs
-```
-Pascal Case Variable name
 
-```
-private string homeTabCounter
-```
+
 
 ## Built With
 
-* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) - The language 
-* [Ms sql](https://www.microsoft.com/en-us/sql-server/sql-server-2016) - Used Database
+* [laravel](https://laravel.com/) - A php framework
+* [XAMPP](https://www.apachefriends.org/index.html) -  PHP development environment
+* [My_SQL](https://www.mysql.com/) - Used Database
 
 ## Contributing
 
@@ -80,9 +72,6 @@ private string homeTabCounter
 1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch
 
 
-## Authors
-
-* **Noboranjan Dey** 
 
 
 ## Acknowledgments
