@@ -1,6 +1,6 @@
 # Ecommerce website
 
-#
+# Clothing Store
 
 
 <a href="https://imgflip.com/gif/2nmqgw"><img src="https://i.imgflip.com/2nmqgw.gif" title="made at imgflip.com"/></a>
@@ -63,7 +63,6 @@ MVC-Model View Controllers
 * [XAMPP](https://www.apachefriends.org/index.html) -  PHP development environment
 * [My_SQL](https://www.mysql.com/) - Used Database
 
-## Contributing
 
 ### Create a branch
 
