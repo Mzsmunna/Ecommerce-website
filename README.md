@@ -1,7 +1,7 @@
 # Ecommerce website
 
 
-<a href="https://imgflip.com/gif/2is1u6"><img src="https://imgflip.com/gif/2nmqgw" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2nmqgw"><img src="https://i.imgflip.com/2nmqgw.gif" title="made at imgflip.com"/></a>
 
 ## Getting Started
 
